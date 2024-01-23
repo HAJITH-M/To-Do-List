@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(./Pink-Tiles-Gradient-Background.jpg);
+}
 .container{
     width: 100%;
     min-height: 100vh ;
@@ -15,7 +18,7 @@
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background: rgba(255, 237, 224, 0.971);
+    background: rgba(153, 211, 255, 0.333);
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
@@ -38,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #ebf3ff;
+    background: #edeef0;
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -57,7 +60,7 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: blue;
+    background:#ff5945;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -73,6 +76,7 @@ ul li{
     position: relative;
     padding-left: 50px;
     padding-top: 18px;
+    color: white;
 }
 
 ul li::before{
@@ -90,7 +94,7 @@ ul li::before{
 }
 
 ul li.checked{
-    color: #555;
+    color: #15008f;
     text-decoration: line-through;
 }
 
@@ -101,18 +105,18 @@ ul li.checked::before{
 ul li span{
     position: absolute;
     right: 0;
-    top: 10px;
+    top: 8px;
     width: 40px;
     height: 40px;
     font-size: 25px;
-    color: red;
+    color: rgb(255, 255, 255);
     line-height: 40px;
     text-align: center;
     border-radius: 5px;
 }
 
 ul li span:hover{
-    background: #ff5945;
+    background: #f63471;
     color: white;
 
 }
